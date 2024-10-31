@@ -1,0 +1,12 @@
+User Story: Night Sound Toggle
+Leader: Ayushpreet Singh
+Description:
+Night sound will adjust the audio volume in Room-settings to set the equalizer and volume settings for a better late-night experience and peace at home.
+
+Acceptance Crieria:
+Night sound toggle should be Automatic by default with an ease access to switch it in settings.
+Equalizer should be changed accurately so that neither it disturbs any one else in the house nor it kills the music experience for the person listening. 
+If someone tries to change the settings a pop-up should be displayed.
+
+So i was assigned to automate the settings option to change to a particular setting at night if the speaker is on room settings and it worked pretty well.
+I worte the code in pyhton and it worked as expected and hope to work witout any problems
