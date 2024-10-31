@@ -1,0 +1,14 @@
+User Story: Night Sound Toggle
+Leader: Mohammad Aldebea
+Description:
+We can change the language of Alexa Wake word (IOS) by going to the sites and going through the options until finding the language options, 
+which will give you the ability to change the language of Alexa Wake word (IOS)
+
+Acceptance Crieria:
+The word Alexa should be changed when Alexa speaks.
+the user should find it easy to do it every time.
+the user should see the current language that is being used.
+
+Work done:
+So i was responsible for automating a process where alexa will respond to the user in the language it is changed and it will be done
+the same time the settings are changed and saved. I used python for this automation.
