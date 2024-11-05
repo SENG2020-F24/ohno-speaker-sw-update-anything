@@ -1,0 +1,12 @@
+User Story: Alarm/Sleep timerd
+Leader: Ayushpreet Singh
+Description:
+Inconsistent activation due to synchronization issue with the speaker or a software bug leading to missed wake up calls or interrupted sleep routines. 
+
+Acceptance Crieria:
+Checking for the bug before and after the repair
+Improving synchronization with all kinds of devices
+Preferring Alarm/Sleep timers over anything else playing.
+
+So i was assigned to improve synchronization with Android and Windows of the speaker. I got the results from the tester.
+I improved it by reducing the delay time and setting up a condition to give more importance to alarm/sleep timers
