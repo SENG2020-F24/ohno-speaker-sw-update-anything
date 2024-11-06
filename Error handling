@@ -1,0 +1,12 @@
+User Story- Improved reliabiliity for product setup
+Task- Improved error handling mechanisms
+
+Overview:
+As a main developer I need to modify errors in product setup.
+Errors like invalid input needs to be clear.
+Worked on poor connection system because Many user experience lot of network connection errors.
+There are many more errors that I have cleared.
+Did some changes in mechanisms setting as well.
+
+
+
