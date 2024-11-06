@@ -1,0 +1,13 @@
+User Story: Music Library Issues
+Leader: Ayushpreet Singh
+Description:
+Speakers may not support all audio file formats available in a music library, leading to playback issues or complete incompatibility with certain tracks.
+
+Acceptance Crieria:
+File Formats : MP3, AAC, FLAC, WAV and ALAC should be supported
+If a user plays unsupported audio file the speaker must notify the user
+The speaker must successfully play all supported audio file formats without playback issues or audio quality degradation.
+
+So i was assigned to do error handling for the playback support i.e i had to make sure that the audio doesn't degrade while being played.
+This especially included alarm/sleep timers.
+I also had to make sure a pop up appears when the user wants to play an unsupported file
