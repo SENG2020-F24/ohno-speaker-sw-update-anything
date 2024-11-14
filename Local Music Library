@@ -1,0 +1,9 @@
+User Story- Local Music Library (see “A few notes about local music library” below)
+Task- Design database setup to store files
+
+Overview-
+I have created database setup to store multiple files in local music library so that user can quickly access, play and manage music app.
+This design helps user to identify quickly any song and artist.
+The database design supports playlist functionality and allowing users to create and edit playlists effortlessly, making it easier to curate and enjoy custom lists of favorite songs.
+
+
