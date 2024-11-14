@@ -1,0 +1,8 @@
+User Story- Search and browse history latency
+Task- Set Up Latency Monitoring and Alerting
+
+Overview
+- Implemented realtime latency tracking for search and browse history actions.
+- I have created Set up dashboards for monitoring and visualizing latency trends.
+- Added documentation for setup
+- Added latency tracking functionality for search and browse history requests.
