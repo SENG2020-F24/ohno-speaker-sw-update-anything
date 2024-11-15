@@ -1,0 +1,8 @@
+User Story: Queue Editing / Management - Android
+Task: Testing Add/Remove from Queue
+
+Overview:
+As a tester, I verified that users can seamlessly add and remove items
+from the queue in the Android app. All functionalities performed as 
+expected, including proper updates to the queue in real-time. The feature
+allows users to manage their lists efficiently, and no critical issues were found during testing.
