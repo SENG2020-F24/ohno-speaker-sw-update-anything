@@ -1,0 +1,8 @@
+User Story: Search and Browse History Latency
+Task: Testing Search and Browse History Latency
+
+Overview:
+As a tester, I verified that the latency for search and 
+browse history actions met performance expectations. All queries were 
+processed within acceptable time limits, and results were displayed promptly.
+Testing confirmed that the system handled peak loads efficiently, with no noticeable delay in retrieving search or browsing history under various conditions.
