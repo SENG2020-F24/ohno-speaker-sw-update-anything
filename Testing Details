@@ -1,0 +1,8 @@
+User Story: Distance Settings for Surrounds
+Task: Testing Distance Settings Functionality
+
+Overview:
+As a tester, I verified that the distance settings for surround sound 
+correctly adjust audio output based on user inputs. The feature performed as expected, with clear 
+adjustments to volume and delay based on distance changes. Testing confirmed accurate audio modifications, 
+and no issues were found across different configurations or edge cases.
