@@ -1,0 +1,9 @@
+User Story: Local Music Library
+Task: Testing Local Music Library Integration
+
+Overview:
+As a tester, I verified the functionality of the local
+music library, ensuring users can seamlessly access, browse,
+and play music stored on their device. All expected features, including 
+sorting, searching, and playback, functioned correctly. The integration performed 
+reliably across various file formats, and no major issues were identified during testing.
