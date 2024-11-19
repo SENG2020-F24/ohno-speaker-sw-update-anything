@@ -1,0 +1,9 @@
+User Story: Improved Group Volume Controls
+Task: Real-Time Checking for Group Volume Adjustments
+
+Overview:
+As a tester, I verified that group volume controls allowed seamless 
+real-time adjustments for multiple devices in sync. Changes in volume were 
+reflected immediately across all connected devices, with no noticeable 
+lag or inconsistency. Testing confirmed smooth operation under various 
+conditions, ensuring accurate and synchronized volume control without errors.
