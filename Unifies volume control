@@ -1,0 +1,8 @@
+User Story- Improved Group Volume controls
+Task- Unified volume control
+
+Overview- 
+Did created a function that allowa user to control the volume of devices.
+Design a user interface component.
+Developed logic that maintain consistent volumn
+Update APIs to fetch the volume settings
