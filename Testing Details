@@ -1,0 +1,9 @@
+User Story: System Not Found
+Task: Manual Testing
+
+Overview:
+As a tester, I performed manual testing to verify the system's behavior when it
+encounters a "System Not Found" scenario. Testing included simulating cases such 
+as missing resources, invalid system IDs, or disconnected components. The application 
+displayed appropriate error messages, logged the incidents correctly, and recovered gracefully
+without crashing. No critical issues were identified during testing.
