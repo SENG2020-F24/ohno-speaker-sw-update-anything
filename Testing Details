@@ -1,0 +1,8 @@
+User Story: Queue Editing / Management - iOS
+Task: Testing Error Handling
+
+Overview:
+As a tester, I verified that error handling for queue editing and management 
+on iOS functions as expected. Scenarios such as attempting to add invalid items, removing items
+from an empty queue, or encountering network disruptions were tested. The system displayed clear 
+and user-friendly error messages, handled exceptions gracefully, and maintained stability throughout testing.
