@@ -1,0 +1,45 @@
+from appium import webdriver
+from time import sleep
+
+def setup_driver(platform_name, device_name, app_path):
+    desired_caps = {
+        'platformName': platform_name,
+        'deviceName': device_name,
+        'app': app_path,
+    }
+    return webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+
+def test_setup_process(driver):
+    try:
+        # Example steps to navigate the setup process
+        start_button = driver.find_element_by_accessibility_id('StartButton')
+        start_button.click()
+
+        sleep(2)
+        
+        next_button = driver.find_element_by_accessibility_id('NextButton')
+        next_button.click()
+
+        sleep(2)
+        
+        finish_button = driver.find_element_by_accessibility_id('FinishButton')
+        finish_button.click()
+
+        # Add more steps as needed to complete the setup process
+        print("Setup process completed successfully")
+    except Exception as e:
+        print(f"Error during setup process: {e}")
+
+def main():
+    # Test on iOS
+    ios_driver = setup_driver('iOS', 'iPhone Simulator', '/path/to/your/ios/app')
+    test_setup_process(ios_driver)
+    ios_driver.quit()
+    
+    # Test on Android
+    android_driver = setup_driver('Android', 'Android Emulator', '/path/to/your/android/app')
+    test_setup_process(android_driver)
+    android_driver.quit()
+
+if __name__ == "__main__":
+    main()
