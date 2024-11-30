@@ -1,0 +1,32 @@
+// Example of improving accessibility for a button in a React Native app
+
+import React from 'react';
+import { TouchableOpacity, Text, View, AccessibilityInfo } from 'react-native';
+
+class AccessibleButton extends React.Component {
+  componentDidMount() {
+    AccessibilityInfo.isScreenReaderEnabled().then((isEnabled) => {
+      if (isEnabled) {
+        // Perform additional accessibility enhancements if screen reader is enabled
+      }
+    });
+  }
+
+  render() {
+    return (
+      <View style={{ margin: 20 }}>
+        <TouchableOpacity
+          accessible={true}
+          accessibilityLabel="Submit button"
+          accessibilityHint="Double tap to submit your information"
+          style={{ backgroundColor: '#007bff', padding: 10, borderRadius: 5 }}
+          onPress={() => alert('Button Pressed!')}
+        >
+          <Text style={{ color: '#ffffff' }}>Submit</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+}
+
+export default AccessibleButton;
