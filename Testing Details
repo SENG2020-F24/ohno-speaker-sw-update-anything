@@ -1,0 +1,7 @@
+User Story: Ability to Set Appearance Between Light Mode/Dark Mode/System Default - iOS & Android
+Task: Release a Beta Version and Gather User Feedback
+
+Overview:
+As a tester, I verified the functionality of the new appearance settings in the beta version across iOS and Android platforms.
+Testing included transitions between light, dark, and system default modes, ensuring visual consistency and adherence to platform guidelines. 
+Feedback from beta users highlighted satisfaction with the feature, with no major usability or functionality issues reported.
