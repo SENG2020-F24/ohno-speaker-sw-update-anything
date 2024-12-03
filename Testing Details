@@ -1,0 +1,7 @@
+User Story: Queue Functionality - Add to Queue, Play Next, Clear Queue
+Task: Backend Functionality Testing
+
+Overview:
+As a tester, I verified the backend functionality for queue operations, including adding items to the queue, playing the next item, and clearing the queue.
+Testing ensured that database updates, API responses, and queue states were accurate and consistent.
+All operations were processed efficiently without errors, and no data inconsistencies were identified during testing.
